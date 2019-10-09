@@ -1,0 +1,117 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: darkgrey;
+}
+
+
+.box {
+	margin: 1em;
+	padding: .5em;
+	padding-top: -40px;
+	box-sizing: border-box;
+	background-color: grey;
+	border-radius: .5em;
+	box-shadow: .5em .5em .5em black;
+}
+
+header {
+	display: block;
+	position: relative;
+}
+.col1, .col2, .col8, .col10 {
+	display: inline-block;
+	vertical-align: top;
+}
+.col2 {width: 12.5%;}
+.col8 {width: 75%;}
+
+.container {
+	position: relative;
+	margin: auto;
+	width: auto;
+}
+.col-right {
+	min-height: 30em;
+}
+
+.padding-v {
+    display: flex;
+    flex-direction: row;
+	padding: 0 1.5em;
+}
+
+.img-dayofthe42 {
+	height: 20%; width: 20%; 
+}
+.img-reload {
+	position: absolute;
+	right: .5em;
+	top: .5em;
+	width: 1em;
+}
+.img-loupe {
+	position: absolute;
+	right: 1.5px;
+	top: 5px;
+	height: 110px;
+	margin-right: 90px;
+	margin-top: 20px; 
+}
+.img-close {
+	position: absolute;
+	right: .5em;
+	bottom: .5em;
+	width: 1em;
+}
+.img-full {
+	width: 100%;
+}
+.img-icon {
+	display: block;
+	margin: 1em;
+	width: 4em;
+}
+.img-bricks {
+	width: 100%;
+	height: 80px;
+	background-image: url("resources/brick.jpg");
+}
+
+.borders {
+	border: .5em solid red;
+	border-radius: .5em;
+}
+
+.txt-big {
+	font-size: 2em;
+}
+.txt-shadow {
+	text-shadow: -.25em .25em .25em red;
+}
+.txt-italic {
+	font-style: italic;
+}
+
+.input-text {
+	width: 20em;
+}
+
+.window {
+	position: absolute;
+	bottom: -5em;
+	left: 1em;
+	width: 25em;
+	padding: 1em 1em 3em 1em;
+	background-color: lime;
+	border-radius: .5em;
+	box-shadow: .5em .5em .5em black;
+}

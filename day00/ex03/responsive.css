@@ -1,0 +1,35 @@
+table { height: 0.4vw; width: 100%; overflow: auto; }
+tr { min-height: 10px; height: 50px;}
+.block
+{
+	width: 5.5%;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: center;
+}
+body
+{
+			background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKysrKysrLSsrKysrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALEBHAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIH/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDi6SURSBFIEUgRRBJEAVhAFHACKAI4sABoAA0AAaAANAACgAKAAoAolASRBJEEQQRSApEEUgRRAE4oAxNLAZxNYgZGNYsBkNABgIAIgACgAIAIgECgBSBFICkQRSgEggoUYCOFAjiw4AxY0sAYMaQMhrBgM4G2aDKIAA0AAUDKIAAoAolASSApEEQQJBAmCGAYRGgTQjQJGHACxpAymsAMpoWAyy2yDIaFBmg0AAQABABEADAYASIIggSCCMRAwiGAWozGoBKMAwhqAkUIFYVQZoNAorNaoBihqs0BWa1RQZRAAEAAQAMSgAggiCBIIGEEDDAYDUIhgNQwQg0YIRDEkCRAAU0Cs1lqgGaKaKDNFIoAEAAQABAJRIAQgJBAlkgWoyQahZjQGNRmEGzGTAajUYa0CWdWiNaqzqBBCiqs00UBWTQAopZBBAEEgAIBKAwAkgJCAkECQQJEIGNRkwGiyQbiZhBrSzq0GgNVBaKgCBrNBVmmgBQWaCBAAEAgkAMCgJAgUCBLJAkECWSDRZINFkg1p1laDSZOgdWgaDQCBBaAQVAIIAkgCoSAJAEolABCAkICQgJBAlkgYQgaLKBoskDqCA6ggIGoCEASCBBAEkAQSBBIEoECSQFAgiCCIIFAgUCBQQNIICWSCSAFBAkECSAJIAkgCSAJIAklASSBFIEUgRSBFIEQgKSApIEQgSSBJIEEgQSBUFABSgASBUJAqkgf/9k=")
+}
+p
+{
+	font-size: 1.2vh;
+}
+		.noblegasses { background-color: purple}
+		.othernonmetals { background-color: blue}
+		.metalloids { background-color: green}
+		.lanthanoids { background-color: orange}
+		.alkanii { background-color: goldenrod}
+		.alkaline { background-color:darkblue}
+		.actinoids{ background-color: wheat}
+		.transitions { background-color:red}
+		.posttrans { background-color: dodgerblue}
+		.index { background-color: lightblue}
+		.unclass {background-color: black}
+		#element { color: white;}
+		#atomic { text-align: left; color: white;}
+		#weight { text-align: right; color: white;}
+H1{
+	text-align: center;
+	color: white;
+}
